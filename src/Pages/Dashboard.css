@@ -1,0 +1,43 @@
+.dashboard-container {
+    margin: 10px auto;
+    max-width: 95vw;
+}
+
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.dashboard-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.dashboard-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.dashboard-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.no-resize{
+    resize: none ;
+}
+
+.custom-table .ant-table-cell {
+    font-size: 9px;
+}
+
+.custom-collapse .ant-collapse-header .ant-collapse-arrow {
+    color: white; 
+}
+
